@@ -1,0 +1,27 @@
+{
+  "name": "random-text-message",
+  "version": "1.0.0",
+  "description": "Generates a random text message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingeshare/random-text-message.git"
+  },
+  "keywords": ["messages, random"],
+  "author": "Sergio Alvarez <ingeshare@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ingeshare/random-text-message/issues"
+  },
+  "homepage": "https://github.com/ingeshare/random-text-message#readme",
+  "bin": {
+    "random-text-message": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
